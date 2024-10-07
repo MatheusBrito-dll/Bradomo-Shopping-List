@@ -1,0 +1,35 @@
+name: shopping_list
+description: "Shopping List"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  get: ^4.6.6
+  flutter_masked_text2: ^0.9.1
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 600
+  uses-material-design: true
